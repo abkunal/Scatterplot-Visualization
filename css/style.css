@@ -1,0 +1,34 @@
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+            body {
+              text-align: center;
+              font-family: 'Open Sans', sans-serif;
+            }
+            
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: black;
+              shape-rendering: crispEdges;
+            }
+            
+            .d3-tip {
+              font-size: 14px;
+              width: 200px;
+              line-height: 1;
+              font-weight: bold;
+              padding: 12px;
+              background: rgba(0, 0, 0, 0.8);
+              color: #fff;
+              border-radius: 2px;
+            }
+            /* Style northward tooltips differently */
+            
+            .d3-tip.n:after {
+              margin: -1px 0 0 0;
+              top: 100%;
+              left: 0;
+            }
+            
+            .circle:hover {
+              cursor: pointer;
+            }
